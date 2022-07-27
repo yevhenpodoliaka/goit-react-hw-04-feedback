@@ -3,3 +3,14 @@
     justify-content: space-around;
     margin-bottom: 8px;
 }
+button{
+    border-radius: 4px;
+    padding: 4px;
+    border: transparent;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
