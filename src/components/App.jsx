@@ -32,13 +32,13 @@ function App() {
   const onButtonClick = e => {
     switch (e.currentTarget.name) {
       case 'good':
-        setGood(good + 1);
+        setGood(prev=>prev+1);
         break;
       case 'neutral':
-        setNetural(neutral + 1);
+        setNetural(prev=>prev+1);
         break;
       case 'bad':
-        setBad(bad + 1);
+        setBad(prev=>prev+1);
         break;
 
       default:
